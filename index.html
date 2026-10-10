@@ -1,222 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Learn how to convert kPa to PSI using a simple conversion formula, practical examples, and a quick reference guide.">
-  <meta name="robots" content="index, follow">
-  <title>Convert kPa to PSI: Complete Pressure Conversion Guide</title>
-
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0;
-      padding: 40px 20px;
-      font-family: Arial, Helvetica, sans-serif;
-      background: #f4f7fa;
-      color: #263238;
-      line-height: 1.7;
-    }
-
-    .container {
-      max-width: 850px;
-      margin: 0 auto;
-      background: #ffffff;
-      padding: 45px;
-      border-radius: 14px;
-      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
-    }
-
-    h1 {
-      margin-top: 0;
-      margin-bottom: 20px;
-      color: #17324d;
-      font-size: 36px;
-      line-height: 1.25;
-    }
-
-    h2 {
-      margin-top: 35px;
-      margin-bottom: 12px;
-      color: #234e70;
-      font-size: 25px;
-      line-height: 1.35;
-    }
-
-    p {
-      margin: 0 0 18px;
-      font-size: 16px;
-    }
-
-    .formula {
-      margin: 25px 0;
-      padding: 20px;
-      background: #f0f6fa;
-      border-left: 4px solid #35708f;
-      border-radius: 6px;
-      font-size: 18px;
-      font-weight: bold;
-      color: #17324d;
-    }
-
-    ul {
-      margin: 15px 0 22px;
-      padding-left: 25px;
-    }
-
-    li {
-      margin-bottom: 8px;
-    }
-
-    a {
-      color: #1769aa;
-      font-weight: 600;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    .example {
-      margin: 25px 0;
-      padding: 20px;
-      background: #fafafa;
-      border: 1px solid #e1e6ea;
-      border-radius: 8px;
-    }
-
-    .note {
-      font-size: 14px;
-      color: #596871;
-      margin-top: 30px;
-    }
-
-    @media (max-width: 600px) {
-      body {
-        padding: 20px 12px;
-      }
-
-      .container {
-        padding: 28px 22px;
-      }
-
-      h1 {
-        font-size: 29px;
-      }
-
-      h2 {
-        font-size: 22px;
-      }
-
-      p,
-      li {
-        font-size: 15px;
-      }
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>kPa to PSI Conversion Guide</title>
+<meta name="description" content="Learn how to convert kilopascals to pounds per square inch with a clear formula, examples, and a quick reference chart.">
+<style>*{box-sizing:border-box}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#fffdf8;color:#26364d;line-height:1.7}
+.top-nav{width:100%;background:#fff8ed;border-bottom:1px solid #ead8b8}
+.top-nav-inner{max-width:1100px;min-height:62px;margin:0 auto;padding:0 20px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.nav-brand{flex-shrink:0;color:#8a5d0b;font-size:18px;font-weight:bold;text-decoration:none}
+.nav-links{display:flex;align-items:center;gap:22px;white-space:nowrap;overflow-x:auto}
+.nav-links a{color:#333;font-size:14px;font-weight:bold;text-decoration:none;padding:20px 0;border-bottom:2px solid transparent}
+.nav-links a:hover,.nav-links a:focus{color:#a97315;border-bottom-color:#a97315}
+.container{max-width:900px;margin:0 auto;padding:28px 20px 55px}
+.site-link{display:inline-block;color:#8a5d0b;font-weight:bold;text-decoration:none;margin-bottom:12px}
+h1,h2,h3{color:#26364d;line-height:1.3}
+h1{font-size:36px;margin:8px 0 12px}
+h2{margin-top:34px;font-size:25px}
+.lead{color:#536174;font-size:18px}
+.panel{background:#fff8ed;border:1px solid #ead8b8;border-radius:14px;padding:22px;margin:22px 0}
+a{color:#8a5d0b}
+table{width:100%;border-collapse:collapse;background:white}
+th,td{padding:11px 13px;border:1px solid #e2dfd7;text-align:left}
+th{background:#fff1d9;color:#333}
+.table-wrap{overflow-x:auto;margin:18px 0}
+.formula{padding:16px;background:#f7f7f7;border-radius:10px;font-weight:bold}
+footer{margin-top:45px;padding-top:22px;border-top:1px solid #ddd;color:#667085;text-align:center;font-size:14px}
+footer a{font-weight:bold}
+@media(max-width:760px){.top-nav-inner{display:block;padding:12px 0 0}.nav-brand{display:block;padding:0 16px 12px}.nav-links{gap:20px;padding:0 16px;border-top:1px solid #ead8b8}.nav-links a{font-size:13px;padding:13px 0}.container{padding:22px 16px 42px}h1{font-size:30px}.lead{font-size:16px}}</style>
 </head>
-
 <body>
+<nav class="top-nav" aria-label="Main navigation">
+<div class="top-nav-inner">
+<a class="nav-brand" href="https://subo8-afk.github.io/kPa-to-PSI/">kPa to PSI</a>
+<div class="nav-links">
+<a href="https://subo8-afk.github.io/kPa-to-PSI/">Home</a>
+<a href="https://subo8-afk.github.io/kPa-to-PSI/conversion-chart.html">Conversion Chart</a>
+<a href="https://subo8-afk.github.io/kPa-to-PSI/tyre-pressure-guide.html">Tyre Pressure Guide</a>
+<a href="https://subo8-afk.github.io/kPa-to-PSI/conversion-formula.html">Formula</a>
+<a href="https://subo8-afk.github.io/kPa-to-PSI/about.html">About</a>
+</div></div></nav>
+<main class="container">
 
-  <main class="container">
-
-    <h1>How to Convert kPa to PSI</h1>
-
-    <p>
-      Pressure is measured using several different units depending on the country,
-      industry, and type of equipment. Two of the most commonly encountered units
-      are kilopascals (kPa) and pounds per square inch (PSI). Knowing how to
-      convert between them is useful when reading tyre-pressure specifications,
-      checking air compressors, working with pneumatic equipment, or comparing
-      technical measurements.
-    </p>
-
-    <h2>Understanding the kPa to PSI Conversion</h2>
-
-    <p>
-      The kilopascal is part of the metric system and is widely used in scientific,
-      engineering, and automotive applications. PSI, meaning pounds per square
-      inch, is particularly common in the United States and in many automotive
-      specifications.
-    </p>
-
-    <p>
-      To convert a pressure value from kPa to PSI, multiply the kPa value by
-      0.145038. This conversion factor allows the two units to be compared using
-      the same pressure measurement.
-    </p>
-
-    <div class="formula">
-      PSI = kPa × 0.145038
-    </div>
-
-    <h2>Examples of Converting kPa to PSI</h2>
-
-    <div class="example">
-      <p>
-        For example, if a pressure reading is 250 kPa:
-      </p>
-
-      <p>
-        <strong>250 × 0.145038 = 36.2595 PSI</strong>
-      </p>
-
-      <p>
-        Therefore, 250 kPa is approximately <strong>36.26 PSI</strong>.
-      </p>
-    </div>
-
-    <p>
-      Some commonly encountered conversions include:
-    </p>
-
-    <ul>
-      <li>100 kPa ≈ 14.50 PSI</li>
-      <li>200 kPa ≈ 29.01 PSI</li>
-      <li>220 kPa ≈ 31.91 PSI</li>
-      <li>240 kPa ≈ 34.81 PSI</li>
-      <li>250 kPa ≈ 36.26 PSI</li>
-      <li>300 kPa ≈ 43.51 PSI</li>
-      <li>350 kPa ≈ 50.76 PSI</li>
-      <li>400 kPa ≈ 58.02 PSI</li>
-    </ul>
-
-    <h2>Why kPa to PSI Conversion Is Useful</h2>
-
-    <p>
-      Converting pressure units can be particularly helpful when different
-      equipment uses different measurement systems. A vehicle manual may specify
-      tyre pressure in PSI, while a digital pressure gauge may display kPa.
-      Compressors, pumps, hydraulic equipment, and technical documents can also
-      use different units.
-    </p>
-
-    <p>
-      If you need to convert a specific pressure value quickly, you can use this
-      <a href="https://kpatopsi.com/" target="_blank" rel="noopener">
-        kPa to PSI
-      </a>
-      conversion tool to obtain the equivalent PSI value without calculating it
-      manually.
-    </p>
-
-    <p>
-      For accurate results, it is important to use the correct conversion factor
-      and to distinguish between the pressure units being used. For everyday
-      applications, rounding the final result to two decimal places is usually
-      sufficient, while technical applications may require additional precision.
-    </p>
-
-    <p class="note">
-      Conversion reference: 1 kPa = 0.145038 PSI. Results may be rounded for
-      practical use.
-    </p>
-
-  </main>
-
+<a class="site-link" href="https://kpatopsi.com/">Open the Online kPa to PSI Converter →</a>
+<h1>kPa to PSI Conversion Guide</h1>
+<p class="lead">Convert kilopascals (kPa) to pounds per square inch (PSI) using a simple formula and practical examples.</p>
+<div class="panel"><h2 style="margin-top:0">Quick conversion</h2><p>To convert kPa to PSI, multiply the pressure in kilopascals by approximately <strong>0.1450377</strong>.</p><div class="formula">PSI = kPa × 0.1450377377</div><p>For example, 200 kPa is approximately <strong>29.01 PSI</strong>.</p><p><a href="https://kpatopsi.com/">Use the free online converter at kpatopsi.com →</a></p></div>
+<h2>What do kPa and PSI mean?</h2><p>Kilopascal (kPa) and pounds per square inch (PSI) are units used to measure pressure. Kilopascals are part of the metric system, while PSI is commonly used on pressure gauges and in vehicle tyre specifications in some countries.</p>
+<h2>Common uses for pressure conversion</h2><ul><li>Checking vehicle tyre pressure against a manufacturer's recommendation.</li><li>Comparing air compressor and pressure-washer specifications.</li><li>Reading technical documents that use different pressure units.</li><li>Working through engineering, science, and maintenance calculations.</li></ul>
+<h2>Explore the guides</h2><p>Use the navigation menu to visit the <a href="conversion-chart.html">conversion chart</a>, read the <a href="tyre-pressure-guide.html">tyre pressure guide</a>, or learn more about the <a href="conversion-formula.html">conversion formula</a>.</p>
+<footer><p>© 2026 kPa to PSI Conversion Guide</p><p><a href="https://kpatopsi.com/">Visit kpatopsi.com for online conversion</a></p><p>Conversion results are rounded for display. Follow manufacturer guidance for tyre pressure.</p></footer>
+</main>
 </body>
 </html>
